@@ -1,0 +1,10 @@
+name: NeonTestKit
+version: '${version}'
+main: com.geminineon.neontestkit.NeonTestKitPlugin
+api-version: '26.3'
+description: Automated dev-only acceptance test harness (AT-01..AT-09) for HordesPaper.
+dependencies:
+  server:
+    HordesPaper:
+      load: BEFORE
+      required: true

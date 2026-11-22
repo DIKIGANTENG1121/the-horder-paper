@@ -1,0 +1,12 @@
+spawn_type: "ground"
+entries:
+  - { entity: "ZOMBIE", weight: 35, first_day: 0, last_day: 20 }
+  - { entity: "ZOMBIE_VILLAGER", weight: 1, first_day: 0, last_day: 20 }
+  - { entity: "ZOMBIE_HORSE", weight: 3, first_day: 20, last_day: 40 }
+  - { entity: "HUSK", weight: 40, first_day: 20, last_day: 40 }
+  - { entity: "DROWNED", weight: 3, first_day: 30, last_day: 40, main_hand: "TRIDENT" }
+  - { entity: "ZOGLIN", weight: 3, first_day: 40, last_day: 40 }
+  - { entity: "ZOMBIFIED_PIGLIN", weight: 10, first_day: 40, last_day: 0 }
+  - { entity: "HUSK", weight: 25, first_day: 50, last_day: 0 }
+  - { entity: "ZOGLIN", weight: 3, first_day: 50, last_day: 0, passenger: "DROWNED", passenger_hand: "TRIDENT" }
+  - { entity: "ZOMBIE_HORSE", weight: 3, first_day: 50, last_day: 0, passenger: "DROWNED", passenger_hand: "TRIDENT" }

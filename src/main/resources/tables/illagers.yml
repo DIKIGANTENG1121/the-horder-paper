@@ -1,0 +1,10 @@
+spawn_type: "ground"
+entries:
+  - { entity: "PILLAGER", weight: 15, first_day: 0, last_day: 0 }
+  - { entity: "VINDICATOR", weight: 10, first_day: 0, last_day: 0 }
+  - { entity: "WITCH", weight: 5, first_day: 20, last_day: 0 }
+  - { entity: "RAVAGER", weight: 5, first_day: 30, last_day: 40 }
+  - { entity: "EVOKER", weight: 3, first_day: 40, last_day: 40 }
+  - { entity: "ILLUSIONER", weight: 5, first_day: 50, last_day: 0 }
+  - { entity: "RAVAGER", weight: 3, first_day: 50, last_day: 0, passenger: "EVOKER" }
+  - { entity: "RAVAGER", weight: 5, first_day: 50, last_day: 0, passenger: "PILLAGER" }

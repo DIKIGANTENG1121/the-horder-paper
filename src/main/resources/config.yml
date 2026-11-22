@@ -1,0 +1,79 @@
+# HordesPaper Configuration (Mapped 1:1 from The-Hordes-1.21.1-1.6.3f.jar)
+debug: false
+
+horde_event:
+  enabled: true
+  command_only: false
+  default_table: "default"
+  ocean_table: "drowned"
+  spawn_amount: 10
+  spawn_multiplier: 1.05
+  spawn_max: 60
+  spawn_duration: 6000
+  spawn_interval: 1000
+  start_time: 18000
+  spawn_days: 10
+  spawn_variation: 0
+  day_length: 24000
+  pathing_interval: 60
+  entity_speed: 1.0
+  spawn_first_day: false
+  can_sleep_during_horde: false
+  prevents_other_players_sleeping: true
+  multiplayer_scaling: 0.8
+  pause_when_empty: true
+  track_by_player_time: false
+  start_buffer: 200
+  spawn_checks: 10
+  spawn_distance: 75.0
+  min_spawn_distance: 20.0
+  enabled_worlds:
+    - "world"
+  # Safe admin-configured reward commands dispatched on horde end
+  # Supported placeholders: %player%, %world%, %day%, %x%, %y%, %z%
+  reward_commands: []
+  messages:
+    event_start: "<dark_red>You hear the howls of a nearby horde</dark_red>"
+    event_end: "<green>The air is quiet, the horde has stopped</green>"
+    try_sleep: "<red>A feeling of impending dread prevents you from sleeping</red>"
+    other_player_try_sleep: "<red>%player% is restless, it seems this night will be eventful</red>"
+
+infection:
+  enabled: true
+  infect_players: true
+  player_base_resistance: 0.25
+  ticks_per_stage: 1500
+  apply_slowness: true
+  apply_hunger: true
+  spawn_zombie_players: true
+  aggro_conversions: true
+  stage_tick_reduction: 0.95
+  show_bossbar: true
+  show_particles: true
+
+zombie_players:
+  zombie_graves: false
+  drowned_players: true
+  husk_players: true
+  fire_immune: false
+  burn_in_sunlight: false
+  only_hurt_by_players: false
+  store_items: true
+  despawn_peaceful: false
+  use_player_head: true
+
+misc:
+  zombies_burn: true
+  skeletons_burn: true
+  zombie_villagers_can_be_cured: true
+  piglins_hoglins_convert: true
+  aggressive_zombie_horses: true
+  zombie_horses_burn: false
+  skeleton_horses_burn: false
+  zombies_scare_horses: true
+  zombie_piglins_hostile: false
+  piglins_hunt_zombies: true
+  piglins_cure_themselves: true
+  illagers_hunt_zombies: true
+  zoglins_attack_undead: false
+  zoglins_attack_mobs: true

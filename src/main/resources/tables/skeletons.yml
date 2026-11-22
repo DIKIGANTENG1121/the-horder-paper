@@ -1,0 +1,10 @@
+spawn_type: "ground"
+entries:
+  - { entity: "SKELETON", weight: 10, first_day: 0, last_day: 20 }
+  - { entity: "SKELETON", weight: 20, first_day: 0, last_day: 30, main_hand: "STONE_SWORD" }
+  - { entity: "SKELETON_HORSE", weight: 5, first_day: 20, last_day: 50, passenger: "SKELETON", passenger_hand: "BOW" }
+  - { entity: "STRAY", weight: 8, first_day: 20, last_day: 0 }
+  - { entity: "BOGGED", weight: 2, first_day: 20, last_day: 0 }
+  - { entity: "WITHER_SKELETON", weight: 10, first_day: 40, last_day: 0 }
+  - { entity: "SKELETON_HORSE", weight: 3, first_day: 40, last_day: 0, passenger: "STRAY", passenger_hand: "BOW" }
+  - { entity: "SKELETON_HORSE", weight: 2, first_day: 40, last_day: 0, passenger: "BOGGED", passenger_hand: "BOW" }

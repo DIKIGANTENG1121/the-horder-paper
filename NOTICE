@@ -1,0 +1,18 @@
+NOTICE — Attribution & Third-Party Notices
+
+1. The Hordes (Original NeoForge Mod)
+   - Author: Smileycorp (and contributors: mpustovoi, SuoHouDaiShi, gisellevonbingen)
+   - Source Repository: https://github.com/SmileycorpMC/The-Hordes
+   - Reference Artifact Analyzed: The-Hordes-1.21.1-1.6.3f.jar
+     SHA-256: 4f4e308d4a412ffd9a2eee71bfb7cf729c306524ccac6b61ab4dcbca648a8574
+   - License: GNU Lesser General Public License v2.1 (LGPL-2.1-only)
+
+2. REA — Reverse Engineer Anything (Investigation Methodology Reference)
+   - Repository: https://github.com/morluto/rea
+   - License: MIT License
+   - Usage: Investigation methodology (evidence/graph/limitations/unknowns discipline)
+     adapted in docs/investigation-method.md without copying REA source code.
+
+3. Minecraft & PaperMC
+   - No Mojang proprietary source code or copyrighted assets are included in this repository.
+   - Built against public Paper API 26.3 (https://papermc.io).

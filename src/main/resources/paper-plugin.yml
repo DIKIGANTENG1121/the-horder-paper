@@ -1,0 +1,9 @@
+name: HordesPaper
+version: '${version}'
+main: com.geminineon.hordes.HordesPaperPlugin
+api-version: '26.3'
+description: Server-only Paper 26.3 port of The Hordes (NeoForge 1.21.1-1.6.3f) by Smileycorp.
+authors:
+  - Smileycorp (Original NeoForge Mod)
+  - Gemini Neon Porting Pipeline
+website: https://github.com/SmileycorpMC/The-Hordes

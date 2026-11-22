@@ -1,0 +1,4 @@
+spawn_type: "prefer_water"
+entries:
+  - { entity: "DROWNED", weight: 40, first_day: 0, last_day: 20 }
+  - { entity: "DROWNED", weight: 3, first_day: 30, last_day: 40, main_hand: "TRIDENT" }

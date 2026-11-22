@@ -1,0 +1,3 @@
+spawn_type: "ground"
+entries:
+  - { entity: "ZOMBIE", weight: 30, first_day: 0, last_day: 0, helmet: "CARVED_PUMPKIN" }
