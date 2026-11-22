@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.geminineon.neontestkit"
-version = rootProject.property("projectVersion") as String
+version = rootProject.property("projectVersion").toString()
 
 repositories {
     mavenCentral()
@@ -17,17 +17,17 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of((rootProject.property("javaVersion") as String).toInt()))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
-    options.release.set((rootProject.property("javaVersion") as String).toInt())
+    options.release.set(25)
 }
 
 tasks.processResources {
-    val props = mapOf("version" to project.version)
+    val props = mapOf("version" to project.version.toString())
     inputs.properties(props)
     filteringCharset = "UTF-8"
     filesMatching("paper-plugin.yml") {
