@@ -125,7 +125,7 @@ public final class HordeManager {
         session.setNextDay(currentDay + config.spawnDays + variation);
 
         player.sendMessage(miniMessage.deserialize(config.msgEventStart));
-        player.getWorld().playSound(player.getLocation(), Sound.ENTITY_WOLF_HOWL, 1.5f, 0.7f);
+        player.getWorld().playSound(player.getLocation(), Sound.ENTITY_ZOMBIE_VILLAGER_CONVERTED, 1.5f, 0.5f);
 
         spawnWaveForSession(player, session, currentDay, null, session.getActiveTable());
         session.setTicksUntilNextWave(config.spawnInterval);
